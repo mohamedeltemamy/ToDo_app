@@ -21,25 +21,27 @@ class appTheme {
       ),
       textTheme: TextTheme(
           titleLarge: GoogleFonts.poppins(
-            fontSize: 22,
+            fontSize: 25,
             fontWeight: FontWeight.bold,
             color: Colors.white,
           ),
           bodyLarge: GoogleFonts.poppins(
-            fontSize: 18,
+            fontSize: 22,
             fontWeight: FontWeight.w500,
             color: primary,
           ),
           bodyMedium: GoogleFonts.poppins(
-            fontSize: 15,
+            fontSize: 18,
             fontWeight: FontWeight.w300,
             color: Colors.black,
           ),
           bodySmall: GoogleFonts.poppins(
-            fontSize: 12,
+            fontSize: 15,
             fontWeight: FontWeight.w300,
             color: Colors.black,
           )),
+      floatingActionButtonTheme:
+          FloatingActionButtonThemeData(backgroundColor: primary),
       bottomNavigationBarTheme: BottomNavigationBarThemeData(
         type: BottomNavigationBarType.fixed,
         selectedIconTheme: IconThemeData(color: primary, size: 32),
